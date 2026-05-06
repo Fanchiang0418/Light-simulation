@@ -36,8 +36,7 @@ int numSegments = 10;
 float stageMargin = 80;
 float lightWidth = 6;
 float lightHeight = 100;
-
------
+```
 
 # 20251208_Code
 
