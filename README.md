@@ -46,7 +46,7 @@ float lightHeight = 100;
 
 ---
 
-### 專案特色
+### 功能特色
 
 - 使用 Processing `P3D` 建立 3D 燈光預覽
 - 7 種排列形式
