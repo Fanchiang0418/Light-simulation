@@ -19,7 +19,7 @@
 
 ---
 
-## 執行需求
+### 執行需求
 
 - Processing
 - Java Mode
@@ -28,7 +28,7 @@
 
 ---
 
-## 基本參數
+### 基本參數
 
 ```java
 int numLights = 20;
@@ -46,7 +46,7 @@ float lightHeight = 100;
 
 ---
 
-## 專案特色
+### 專案特色
 
 - 使用 Processing `P3D` 建立 3D 燈光預覽
 - 7 種排列形式
@@ -59,7 +59,7 @@ float lightHeight = 100;
 
 ---
 
-## 畫面概念
+### 畫面概念
 
 每個燈光效果會改變 `brightness[i][s]` 的數值：
 
@@ -77,7 +77,7 @@ brightness[i][s]
 
 ---
 
-## 功能特色
+### 功能特色
 
 - 文字轉換成燈光掃描效果
 - POV 視覺暫留風格模擬
@@ -90,7 +90,7 @@ brightness[i][s]
 
 ---
 
-## 運作流程
+### 運作流程
 
 1. 將指定文字繪製到一個 `PGraphics` 圖層中。
 2. 程式逐欄掃描文字影像。
@@ -100,7 +100,7 @@ brightness[i][s]
 
 ---
 
-## 執行需求
+### 執行需求
 
 - Processing
 - Java Mode
@@ -111,7 +111,7 @@ brightness[i][s]
 
 ---
 
-## 主要參數
+### 主要參數
 
 ```java
 String textToDisplay = "TIME";
