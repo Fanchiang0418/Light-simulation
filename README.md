@@ -1,10 +1,12 @@
 # Light-simulation
 
-# Processing POV 文字掃描燈光模擬器
+# 20260105_Code
 
-這是一個使用 Processing 製作的 3D 燈光視覺化程式，用來模擬 POV（Persistence of Vision，視覺暫留）形式的文字掃描效果。
+## Processing POV 文字掃描燈光模擬器
 
-程式會先把文字繪製到一個離螢幕的像素圖層中，再逐欄掃描文字影像，將掃描結果轉換成一排垂直燈柱的亮度變化，形成像是 LED 掃描文字的視覺效果。
+使用 Processing 製作的 3D 燈光視覺化程式，用來模擬 POV（Persistence of Vision，視覺暫留）形式的文字掃描效果。
+
+程式會先把文字繪製到像素圖層中，再逐欄掃描文字影像，將掃描結果轉換成一排垂直燈柱的亮度變化，形成 LED 掃描文字的視覺效果。
 
 ---
 
