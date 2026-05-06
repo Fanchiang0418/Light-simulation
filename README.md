@@ -2,11 +2,46 @@
 
 # 20251201_Code
 
+## Processing 燈光語言模擬
+
+使用者可以輸入中文或英文關鍵字，程式會根據輸入內容切換不同的燈光動態。  
+燈光有六種的排列方式，每一根燈柱由多個 pixel segment 組成，透過亮度變化呈現不同的情緒、動作與意象。
+
+---
+
+## 功能特色
+
+- 中文 / 英文關鍵字輸入
+- 13 種燈光語言模式
+- 六種燈光排列形式
+- 每根燈柱可分段控制亮度
+- 支援呼吸、波浪、閃爍、擴散、旋轉、上升、下降等效果
+
+---
+
+## 執行需求
+
+- Processing
+- Java Mode
+
+目前版本不需要額外安裝外部函式庫。
+
+---
+
+## 基本參數
+
+```java
+int numLights = 20;
+int numSegments = 10;
+float stageMargin = 80;
+float lightWidth = 6;
+float lightHeight = 100;
+
 # 20251208_Code
 
 # 20260105_Code
 
-## Processing POV 文字掃描燈光模擬器
+## Processing POV 文字掃描燈光模擬
 
 使用 Processing 製作的 3D 燈光視覺化程式，用來模擬 POV（Persistence of Vision，視覺暫留）形式的文字掃描效果。
 
@@ -27,11 +62,7 @@
 
 ---
 
-## 概念說明
-
-這個程式模擬一種「文字被燈光掃描出來」的效果。
-
-運作流程大致如下：
+## 運作流程
 
 1. 將指定文字繪製到一個 `PGraphics` 圖層中。
 2. 程式逐欄掃描文字影像。
