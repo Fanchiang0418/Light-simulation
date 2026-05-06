@@ -59,12 +59,24 @@ float lightHeight = 100;
 
 ---
 
-### 畫面概念
+### 執行需求
 
-每個燈光效果會改變 `brightness[i][s]` 的數值：
+- Processing
+- Java Mode
+- 支援 P3D renderer
+- processing.event.MouseEvent
+
+目前版本不需要額外安裝外部函式庫。
+
+---
+### 主要參數
 
 ```java
-brightness[i][s]
+int numLights = 20;
+float stageMargin = 80;
+float lightWidth = 6;
+float lightHeight = 100;
+int numSegments = 10;
 ```
 
 # 20260105_Code
