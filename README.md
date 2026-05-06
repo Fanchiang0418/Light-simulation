@@ -2,7 +2,7 @@
 
 # 20251201_Code
 
-## Processing 燈光語言模擬
+## Processing 燈光語言模擬_2D排列形式
 
 使用者可以輸入中文或英文關鍵字，程式會根據輸入內容切換不同的燈光動態。  
 燈光有六種的排列方式，每一根燈柱由多個 pixel segment 組成，透過亮度變化呈現不同的情緒、動作與意象。
@@ -36,6 +36,8 @@ int numSegments = 10;
 float stageMargin = 80;
 float lightWidth = 6;
 float lightHeight = 100;
+
+-----
 
 # 20251208_Code
 
